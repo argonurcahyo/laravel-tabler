@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\FormController;
+use App\Http\Controllers\InterfaceController;
 use App\Http\Controllers\LoginController;
 
 use Illuminate\Support\Facades\Route;
@@ -19,7 +20,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/form', [FormController::class, 'index']);
+Route::get('/buttons', [InterfaceController::class, 'buttons']);
+Route::get('/maps', [InterfaceController::class, 'maps']);
 
 //AUTH
 Route::get('/login', [LoginController::class, 'login']);
 Route::get('/register', [LoginController::class, 'register']);
+Route::get('/forgot-password', [LoginController::class, 'forgotPassword']);

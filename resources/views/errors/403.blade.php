@@ -1,7 +1,7 @@
 @extends('layouts.error')
 
 @section('title')
-    Error 404
+    Error 403
 @stop
 
 @section('content')

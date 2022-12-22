@@ -261,7 +261,7 @@
                                     Badges
                                     <span class="badge badge-sm bg-green-lt text-uppercase ms-auto">New</span>
                                 </a>
-                                <a class="dropdown-item" href="./buttons.html">
+                                <a class="dropdown-item" href="{{ url('/buttons') }}">
                                     Buttons
                                 </a>
                                 <div class="dropend">
@@ -301,7 +301,7 @@
                                 <a class="dropdown-item" href="./modals.html">
                                     Modals
                                 </a>
-                                <a class="dropdown-item" href="./maps.html">
+                                <a class="dropdown-item" href="{{ url('/maps') }}">
                                     Maps
                                 </a>
                                 <a class="dropdown-item" href="./map-fullsize.html">
